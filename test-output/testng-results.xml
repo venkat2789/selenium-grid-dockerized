@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-05T19:31:39 EST" name="Default suite" finished-at="2023-01-05T19:32:04 EST" duration-ms="24818">
+    <groups>
+    </groups>
+    <test started-at="2023-01-05T19:31:39 EST" name="Default test" finished-at="2023-01-05T19:32:04 EST" duration-ms="24818">
+      <class name="tests.MainTest">
+        <test-method signature="launchFacebook(java.lang.String)[pri:0, instance:tests.MainTest@3a44431a]" started-at="2023-01-05T19:31:39 EST" name="launchFacebook" data-provider="getBrowser" finished-at="2023-01-05T19:31:51 EST" duration-ms="11600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFacebook -->
+        <test-method signature="launchFacebook(java.lang.String)[pri:0, instance:tests.MainTest@3a44431a]" started-at="2023-01-05T19:31:39 EST" name="launchFacebook" data-provider="getBrowser" finished-at="2023-01-05T19:31:55 EST" duration-ms="15852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFacebook -->
+        <test-method signature="launchGoogle(java.lang.String)[pri:0, instance:tests.MainTest@3a44431a]" started-at="2023-01-05T19:31:55 EST" name="launchGoogle" data-provider="getBrowser" finished-at="2023-01-05T19:31:59 EST" duration-ms="3712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+        <test-method signature="launchGoogle(java.lang.String)[pri:0, instance:tests.MainTest@3a44431a]" started-at="2023-01-05T19:31:55 EST" name="launchGoogle" data-provider="getBrowser" finished-at="2023-01-05T19:32:04 EST" duration-ms="8831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+      </class> <!-- tests.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
